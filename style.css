@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header style*/
+header{
+    background-image: url(images/banner/banner1.png);
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 150px;
+     
+ 
+}
+.header-item{
+    float: right;
+    padding-top:300px ;
+    
+    
+    
+    
+}
+.header-titel{
+    text-align: right;
+    padding-right: 150px;
+    font-size: 50px;
+    padding-bottom: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+.header-description{
+    text-align: right;
+    padding-right: 150px;
+    padding-bottom: 18px;
+    color: rgb(35, 35, 35);
+
+}
+.btn{
+   
+     text-align: right;
+     padding-right: 150px;
+     padding-bottom: 150px;
+    
+}
+.btn .btn1{
+    border: none;
+    color: white;
+    background-color: orangered ;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+/* failures style */
+.failures{
+    /* background-color: rgba(255, 235, 205, 0.712); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 200px;
+     
+
+}
+.about-failures{
+    padding-left: 85px;
+    
+}
+.failures-titel{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-descriptin{
+    font-size: 15px;
+    color: rgb(20, 19, 19);
+     
+    padding: 20px 0 15px;
+}
+.failures-description{
+    
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+/* plan */
+.sectio-titel{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.plan-container{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 200px 0;
+    text-align: center;
+}
+.plan-titel{
+    padding:10px 0 5px;
+
+
+}
+.plan-description{
+    font-size: 16px;
+}
+.contact{
+    
+    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-blend-mode:multiply;
+    height: 40vh;
+    margin: 200px;
+}
+.contact-titel{
+    color:rgb(251, 251, 251);
+    font-weight: bold;
+    padding: 50px 100px 0;
+}
+.contact-btn{
+    border: none;
+    background-color: rgb(255, 255, 254);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:orange;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+/* footer */
+.footer-section{
+    background-color: black;
+    
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+.future{
+    padding-top: 150px;
+}
+.future-titel{
+    font-weight: bold;
+    font-size: 30;
+    padding-bottom: 20px;
+}
+.future-description{
+    font-size: 16px;
+    text-align: left;
+
+}
+.email{
+    padding-top: 15px;
+
+}
+.phone{
+    padding-top: 15px;
+
+}
+.social{
+    display: flex;
+  
+}
+.social {
+    list-style: none;
+     
+    padding-top: 15px;
+    list-style: none;
+    padding-right: 15px;
+    padding-top: 15px;
+    gap: 15px;
+    align-items:left;
+}
+.Subscribe{
+    padding-top: 150px;
+}
+input{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.subscribe-btn{
+    border: none;
+    background-color: rgb(255, 255, 254);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color:orange;
+     
+    margin-top: 15px;
+    font-weight: bold;
+
+}
